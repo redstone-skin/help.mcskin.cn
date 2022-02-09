@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>红石皮肤站手册</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="/icon/icon.ico" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="红石皮肤站手册" />
+    <link rel="shortcut icon" sizes="152x152" href="/icon/icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/icon/icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"
+    />
+  </head>
+  <body>
+    <div id="app">请稍后....</div>
+    <script>
+      window.$docsify = {
+        name: "",
+        repo: "",
+        loadNavbar: true,
+        subMaxLevel: 4,
+        loadSidebar: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- PWA Support -->
+    <script>
+      if (typeof navigator.serviceWorker !== "undefined") {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+  </body>
+</html>

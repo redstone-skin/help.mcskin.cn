@@ -1,0 +1,16 @@
+{
+    "name": "红石皮肤站帮助中心",
+    "short_name": "红石皮肤站",
+    "description": "为红石皮肤站用户提供详细的文档",
+    "theme_color": "#dc3545",
+    "background_color": "#dc3545",
+    "display": "standalone",
+    "icons": [
+           {
+            "src": "icon/icon.png",
+            "sizes": "150x150",
+            "type": "image/png"
+          }
+      ],
+      "start_url": "index.html"
+  }
